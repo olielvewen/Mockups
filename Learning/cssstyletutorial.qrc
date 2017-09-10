@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>drive-harddisk.png</file>
+    <file>media-tape.png</file>
+    <file>system-log-out.png</file>
+    <file>user-home.png</file>
+  </qresource>
+</RCC>
