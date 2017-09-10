@@ -1,0 +1,45 @@
+<RCC>
+  <qresource prefix="iconh2o">
+    <file>application-exit.png</file>
+    <file>applications-graphics.png</file>
+    <file>applications-multimedia.png</file>
+    <file>arch-icon.png</file>
+    <file>audio-headset.png</file>
+    <file>audio-input-line.png</file>
+    <file>battery.png</file>
+    <file>camera-icon.png</file>
+    <file>colors-icon.png</file>
+    <file>contact-new.png</file>
+    <file>dialog-ok.png</file>
+    <file>drive-harddisk.png</file>
+    <file>folder-blue.png</file>
+    <file>folder-development.png</file>
+    <file>folder-new.png</file>
+    <file>folder-video.png</file>
+    <file>folder-violet.png</file>
+    <file>go-down.png</file>
+    <file>go-next.png</file>
+    <file>go-previous.png</file>
+    <file>go-up.png</file>
+    <file>kubuntu-icon.png</file>
+    <file>media-optical-blu-ray.png</file>
+    <file>media-optical-recordable.png</file>
+    <file>media-optical-video.png</file>
+    <file>media-tape.png</file>
+    <file>preferences-desktop-color.png</file>
+    <file>preferences-other.png</file>
+    <file>system-help.png</file>
+    <file>system-log-out.png</file>
+    <file>system-reboot.png</file>
+    <file>tool-animator.png</file>
+    <file>tools-media-optical-burn.png</file>
+    <file>tools-media-optical-erase.png</file>
+    <file>tools-rip-audio-cd.png</file>
+    <file>tools-rip-video-cd.png</file>
+    <file>tools-wizard.png</file>
+    <file>transform-crop-and-resize.png</file>
+    <file>transform-move.png</file>
+    <file>transform-scale.png</file>
+    <file>user-home.png</file>
+  </qresource>
+</RCC>
