@@ -80,12 +80,12 @@ class Ui_Dialog(object):
         self.label_18.setObjectName("label_18")
         self.spbfrom = QtWidgets.QTimeEdit(self.tabsimple)
         self.spbfrom.setEnabled(False)
-        self.spbfrom.setGeometry(QtCore.QRect(110, 90, 118, 30))
+        self.spbfrom.setGeometry(QtCore.QRect(110, 90, 151, 30))
         self.spbfrom.setCurrentSection(QtWidgets.QDateTimeEdit.HourSection)
         self.spbfrom.setObjectName("spbfrom")
         self.spbto = QtWidgets.QTimeEdit(self.tabsimple)
         self.spbto.setEnabled(False)
-        self.spbto.setGeometry(QtCore.QRect(340, 90, 118, 30))
+        self.spbto.setGeometry(QtCore.QRect(340, 90, 151, 30))
         self.spbto.setCurrentSection(QtWidgets.QDateTimeEdit.HourSection)
         self.spbto.setObjectName("spbto")
         self.label_19 = QtWidgets.QLabel(self.tabsimple)
@@ -100,13 +100,13 @@ class Ui_Dialog(object):
         self.label_21.setObjectName("label_21")
         self.spbwidth = QtWidgets.QSpinBox(self.tabsimple)
         self.spbwidth.setEnabled(False)
-        self.spbwidth.setGeometry(QtCore.QRect(120, 290, 80, 30))
+        self.spbwidth.setGeometry(QtCore.QRect(120, 290, 92, 30))
         self.spbwidth.setMaximum(1920)
         self.spbwidth.setProperty("value", 1280)
         self.spbwidth.setObjectName("spbwidth")
         self.spbheight = QtWidgets.QSpinBox(self.tabsimple)
         self.spbheight.setEnabled(False)
-        self.spbheight.setGeometry(QtCore.QRect(380, 290, 80, 30))
+        self.spbheight.setGeometry(QtCore.QRect(380, 290, 92, 30))
         self.spbheight.setMaximum(1200)
         self.spbheight.setProperty("value", 720)
         self.spbheight.setObjectName("spbheight")
@@ -297,7 +297,7 @@ class Ui_Dialog(object):
         self.spboffset.setAlignment(QtCore.Qt.AlignRight|QtCore.Qt.AlignTrailing|QtCore.Qt.AlignVCenter)
         self.spboffset.setObjectName("spboffset")
         self.spbdigits = QtWidgets.QSpinBox(self.tabexportimagesequence)
-        self.spbdigits.setGeometry(QtCore.QRect(190, 240, 100, 30))
+        self.spbdigits.setGeometry(QtCore.QRect(190, 240, 144, 30))
         self.spbdigits.setAlignment(QtCore.Qt.AlignRight|QtCore.Qt.AlignTrailing|QtCore.Qt.AlignVCenter)
         self.spbdigits.setMaximum(9900000)
         self.spbdigits.setObjectName("spbdigits")
@@ -400,7 +400,6 @@ class Ui_Dialog(object):
         self.btncancel.setText(_translate("Dialog", "Cancel"))
         self.btnexport.setText(_translate("Dialog", "Export"))
 
-import openshot_rc
 
 if __name__ == "__main__":
     import sys
