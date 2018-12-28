@@ -23,7 +23,7 @@ import os
 
 from PyQt5.QtWidgets import *
 
-from compression-methodui import Ui_Dialog
+from compressionmethodui import Ui_Dialog
 
 class compressionMethod(QDialog):
 
