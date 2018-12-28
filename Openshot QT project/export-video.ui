@@ -60,8 +60,7 @@
      </property>
      <property name="icon">
       <iconset theme="add">
-       <normaloff/>
-      </iconset>
+       <normaloff>.</normaloff>.</iconset>
      </property>
     </widget>
    </item>
@@ -189,7 +188,7 @@
            <rect>
             <x>110</x>
             <y>90</y>
-            <width>118</width>
+            <width>151</width>
             <height>30</height>
            </rect>
           </property>
@@ -208,7 +207,7 @@
            <rect>
             <x>340</x>
             <y>90</y>
-            <width>118</width>
+            <width>151</width>
             <height>30</height>
            </rect>
           </property>
@@ -269,7 +268,7 @@
            <rect>
             <x>120</x>
             <y>290</y>
-            <width>80</width>
+            <width>92</width>
             <height>30</height>
            </rect>
           </property>
@@ -288,7 +287,7 @@
            <rect>
             <x>380</x>
             <y>290</y>
-            <width>80</width>
+            <width>92</width>
             <height>30</height>
            </rect>
           </property>
@@ -996,7 +995,7 @@
            <rect>
             <x>190</x>
             <y>240</y>
-            <width>100</width>
+            <width>144</width>
             <height>30</height>
            </rect>
           </property>
@@ -1081,9 +1080,7 @@
    </item>
   </layout>
  </widget>
- <resources>
-  <include location="../../images/openshot.qrc"/>
- </resources>
+ <resources/>
  <connections>
   <connection>
    <sender>btncancel</sender>
