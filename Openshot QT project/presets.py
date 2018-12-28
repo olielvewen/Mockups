@@ -23,12 +23,12 @@ import os
 
 from PyQt5.QtWidgets import *
 
-from presset import Ui_Dialog
+from presetsui import Ui_Dialog
 
-class Pressets(QDialog):
+class Presets(QDialog):
 
     def __init__(self, parent=None):
-        super(pressets, self).__init__(parent)
+        super(Presets, self).__init__(parent)
         self.setupUi()
         self.connectActions()
 
@@ -40,11 +40,12 @@ class Pressets(QDialog):
 
     #===================================================================================================================
     def connectActions(self):
+        pass
 
 
 
 if __name__ == "__main__":
     application = QApplication(sys.argv)
-    pressets = pressets()
-    pressets.show()
+    presets = Presets()
+    presets.show()
     sys.exit(application.exec_())
