@@ -100,8 +100,8 @@
      </rect>
     </property>
     <property name="icon">
-     <iconset>
-      <normaloff>../../images/crop.png</normaloff>../../images/crop.png</iconset>
+     <iconset resource="squeze.qrc">
+      <normaloff>:/newPrefix/crop.png</normaloff>:/newPrefix/crop.png</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -120,8 +120,8 @@
      </rect>
     </property>
     <property name="icon">
-     <iconset>
-      <normaloff>../../images/none.png</normaloff>../../images/none.png</iconset>
+     <iconset resource="squeze.qrc">
+      <normaloff>:/newPrefix/none.png</normaloff>:/newPrefix/none.png</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -140,8 +140,8 @@
      </rect>
     </property>
     <property name="icon">
-     <iconset>
-      <normaloff>../../images/squeze.png</normaloff>../../images/squeze.png</iconset>
+     <iconset resource="squeze.qrc">
+      <normaloff>:/newPrefix/squeze.png</normaloff>:/newPrefix/squeze.png</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -160,8 +160,8 @@
      </rect>
     </property>
     <property name="icon">
-     <iconset>
-      <normaloff>../../images/letterbox.png</normaloff>../../images/letterbox.png</iconset>
+     <iconset resource="squeze.qrc">
+      <normaloff>:/newPrefix/letterbox.png</normaloff>:/newPrefix/letterbox.png</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -172,6 +172,8 @@
    </widget>
   </widget>
  </widget>
- <resources/>
+ <resources>
+  <include location="squeze.qrc"/>
+ </resources>
  <connections/>
 </ui>

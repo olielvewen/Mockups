@@ -25,12 +25,18 @@ from PyQt5.QtWidgets import QApplication, QDialog
 
 from squezeui import Ui_Dialog
 
+
 class Squeze(QDialog):
 
     def __init__(self, parent=None):
         super(Squeze, self).__init__(parent)
         self.setupUi()
         self.connectActions()
+
+        self.ui.btncrop.clicked.connect(self.load_crop)
+        self.ui.btnsqueze.clicked.connect(self.load_squeze)
+        self.ui.btnletterbox.clicked.connect(self.load_letterbox)
+        self.ui.btnnone.clicked.connect(self.close_dialog)
 
     #===================================================================================================================
     def setupUi(self):
@@ -41,6 +47,18 @@ class Squeze(QDialog):
     #===================================================================================================================
     def connectActions(self):
         pass
+
+    def load_crop(self):
+        pass
+
+    def load_squeze(self):
+        pass
+
+    def load_letterbox(self):
+        pass
+
+    def close_dialog(self):
+        QDialog.rejected()
 
 
 
