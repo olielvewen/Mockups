@@ -13,4 +13,10 @@ Now, come in the right subject. You'll find a mockup of :
 * a video converter for Openshot (a set of files)
 * etc...
 
+Some screenshots
+----------------
+
+<p align="center">
+    img src="
+
 Another word, all this files are proctected and covered by the GPL v3.
