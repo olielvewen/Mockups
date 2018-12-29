@@ -25,6 +25,7 @@ from PyQt5.QtWidgets import QApplication, QDialog
 
 from startscreenui import Ui_Dialog
 
+
 class StartScreen(QDialog):
 
     def __init__(self, parent=None):

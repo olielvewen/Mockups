@@ -24,7 +24,7 @@ import os
 from PyQt5.QtWidgets import QApplication, QDialog
 
 from squezeui import Ui_Dialog
-
+import squeze_rc
 
 class Squeze(QDialog):
 

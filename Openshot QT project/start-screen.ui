@@ -54,7 +54,7 @@
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>../../images/compositions-icon.png</normaloff>../../images/compositions-icon.png</iconset>
+        <normaloff>compositions-icon.png</normaloff>compositions-icon.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -84,7 +84,7 @@
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>../../images/folder-video.png</normaloff>../../images/folder-video.png</iconset>
+        <normaloff>folder-video.png</normaloff>folder-video.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -131,7 +131,7 @@
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>../../images/krita-icon.png</normaloff>../../images/krita-icon.png</iconset>
+        <normaloff>krita-icon.png</normaloff>krita-icon.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -161,7 +161,7 @@
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>../../images/system-shutdown.png</normaloff>../../images/system-shutdown.png</iconset>
+        <normaloff>system-shutdown.png</normaloff>system-shutdown.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -191,7 +191,7 @@
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>../../images/camera-icon.png</normaloff>../../images/camera-icon.png</iconset>
+        <normaloff>camera-icon.png</normaloff>camera-icon.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -235,7 +235,7 @@
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>../../images/folder-blue.png</normaloff>../../images/folder-blue.png</iconset>
+        <normaloff>folder-blue.png</normaloff>folder-blue.png</iconset>
       </property>
       <property name="iconSize">
        <size>
