@@ -18,12 +18,12 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-
-import sys
 import os
+import sys
 import configparser
+from functools import partial
 
-from PyQt5.QtCore import QSettings, QPoint, QSize
+from PyQt5.QtCore import QSettings, QRect, QTimer
 from PyQt5.QtWidgets import QDialog, QApplication, QMessageBox
 from PyQt5.QtGui import *
 
@@ -77,7 +77,6 @@ class Mx5000(QDialog):
         self.setupUi()
         self.connectActions()
         self.dirty = True
-        self.loadSettings()
 
     # ===================================================================================================================
     def setupUi(self):
@@ -116,18 +115,18 @@ class Mx5000(QDialog):
     def loadSettings(self):
 
         settings = QSettings("Exemple app", "MX5000")
-        pos = settings.value("pos", QPoint(200, 200))
-        size = settings.value("size", QSize(615, 800))
-        self.resize(size)
-        self.move(pos)
+        geometry = settings.value("geometry", QRect(200, 200, 615, 800))
+        self.setGeometry(geometry)
+
+    def showEvent(self, event):
+    	self.loadSettings()
+    	super(Mx5000, self).showEvent(event)
 
     # ===================================================================================================================
 
     def writeSettings(self):
-
         settings = QSettings("Exemple app", "MX5000")
-        settings.setValue("pos", self.pos())
-        settings.setValue("size", self.size())
+        settings.setValue("geometry", self.geometry())
 
     # ===================================================================================================================
 
@@ -191,6 +190,7 @@ class Mx5000(QDialog):
 
 if __name__ == "__main__":
     application = QApplication(sys.argv)
-    Mx5000 = Mx5000()
-    Mx5000.show()
+    # nor use the name of class as name of variable
+    w = Mx5000()
+    w.show()
     sys.exit(application.exec_())
