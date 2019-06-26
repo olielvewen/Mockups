@@ -21,7 +21,8 @@
 import sys
 
 from PyQt5.QtCore import *
-from PyQt5.QtWidgets import *
+from PyQt5.QtWidgets import QApplication, QDialog
+
 
 from devidifyui import Ui_MX5000
 import mx5000ressources_rc
