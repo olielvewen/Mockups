@@ -21,24 +21,25 @@
 import sys
 import os
 # Need for path
-import os.path
-#Need for find library
-import shutil
-#Need for create command line
-import subprocess
+# import os.path
+# Need for find library
+# import shutil
+# Need for create command line
+# import subprocess
 
-#need for display gui
-from PyQt5.QtGui import *
-from PyQt5.QtCore import *
-from PyQt5.QtWidgets import *
+# need for display gui
+# from PyQt5.QtGui import *
+from PyQt5.QtCore import QSize, QSettings, QPoint
+from PyQt5.QtWidgets import QDialog, QApplication, QMessageBox
 
-#Load ui files
+# Load ui files
 from estabilizeui import Ui_Dialog
 
 app_name = "eStabilize"
 app_version = "0.10"
 app_author = "Olivier Girard"
 author_mail = "olivier@openshot.org"
+
 
 class MonAppli(QDialog):
 
@@ -47,6 +48,7 @@ class MonAppli(QDialog):
         self.createWidgets()
         self.setupUi()
         self.connectActions()
+        self.loadSettings()
 
     #===========================================================================
     def setupUi(self):
@@ -68,8 +70,47 @@ class MonAppli(QDialog):
         " "
         pass
 
+    def closeEvent(self, event):
+
+        if self.okToContinue():
+            self.writeSettings()
+            event.accept()
+        else:
+            event.ignore()
+
+    #===================================================================================================================
+
+    def loadSettings(self):
+
+        settings = QSettings('Exemple app', 'MX5000')
+        pos = settings.value("pos", QPoint(200, 200))
+        size = settings.value("size", QSize(615, 800))
+        self.resize(size)
+        self.move(pos)
+
+    #===================================================================================================================
+
+    def writeSettings(self):
+
+        settings = QSettings('Exemple app', 'MX5000')
+        settings.setValue("pos", self.pos())
+        settings.setValue("size", self.size())
+
+    #===================================================================================================================
+
+    def okToContinue(self):
+
+        if self.dirty:
+            reply = QMessageBox.question(self, self.tr("MX 5000", "Did you want to close the application ?"),
+                                         QMessageBox.Yes | QMessageBox.No | QMessageBox.Cancel,)
+            return reply == QMessageBox.Yes
+        return True
+
+    #=========================================================
+
 
 if __name__ == "__main__":
+
     application = QApplication(sys.argv)
     MonAppli = MonAppli()
     MonAppli.show()
