@@ -1,0 +1,14 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>application-exit.png</file>
+    <file>dialog-ok.png</file>
+    <file>input-keyboard.png</file>
+    <file>ktorrent.png</file>
+    <file>preferences-desktop-mouse.png</file>
+    <file>preferences-desktop-screensaver.png</file>
+    <file>preferences-desktop-theme.png</file>
+    <file>system-log-out.png</file>
+    <file>system-reboot.png</file>
+    <file>system-switch-user.png</file>
+  </qresource>
+</RCC>
