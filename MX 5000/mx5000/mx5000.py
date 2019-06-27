@@ -18,12 +18,12 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-
-import sys
 import os
+import sys
 import configparser
+from functools import partial
 
-from PyQt5.QtCore import QSettings, QPoint, QSize
+from PyQt5.QtCore import QSettings, QRect, QTimer
 from PyQt5.QtWidgets import QDialog, QApplication, QMessageBox
 from PyQt5.QtGui import *
 
@@ -37,22 +37,22 @@ app_version = "0.15"
 app_author = "Olivier Girard"
 app_email = "olivier@openshot.org"
 
-#check if we are on a Linux system either exit
+# check if we are on a Linux system either exit
 if os.name != "posix":
     print("You are not under a Linux system")
     sys.exit(2)
 
-#check if the hidden project folder is created by default, if not it is created
+# check if the hidden project folder is created by default, if not it is created
 HOME_PATH = os.path.expanduser("~")
 USER_PATH = os.path.join(HOME_PATH, ".mx5000")
 if not os.path.exists(USER_PATH):
     os.mkdir(USER_PATH)
-#configFolder = os.path.join(QDir.homePath(), ".mx5000")
-#configFile = os.path.join(QDir.homePath(), ".mx5000/config.conf")
-#configLog = os.path.join(QDir.homePath(), ".mx5000/logfile")
+# configFolder = os.path.join(QDir.homePath(), ".mx5000")
+# configFile = os.path.join(QDir.homePath(), ".mx5000/config.conf")
+# configLog = os.path.join(QDir.homePath(), ".mx5000/logfile")
 
 config_path = os.path.join(USER_PATH, "config.ini")
-#settings = QSettings()
+# settings = QSettings()
 # config = configparser.ConfigParser()
 # config['DEFAULT'] = {'path_keyboard': "/dev/hiddev0",
 #                      'keyboard_name': "Whatever",
@@ -64,8 +64,8 @@ config_path = os.path.join(USER_PATH, "config.ini")
 #                      'keyboard_beep': '1',
 #                      'play_sound': '1',
 #                      'sound_directory': "/home/user/.mx5000/notify.ogg"}
-#if not os.path.isfile("config"):
-    #os.mkdir(USER_PATH)
+# if not os.path.isfile("config"):
+# os.mkdir(USER_PATH)
 # with open('config.ini', 'w') as configfile:
 #     config.write(configfile)
 
@@ -76,10 +76,9 @@ class Mx5000(QDialog):
 
         self.setupUi()
         self.connectActions()
-        self.dirty = False
-        self.loadSettings()
+        self.dirty = True
 
-    #===================================================================================================================
+    # ===================================================================================================================
     def setupUi(self):
 
         self.ui = Ui_MX5000()
@@ -87,12 +86,12 @@ class Mx5000(QDialog):
         self.ui.rdbimap.setChecked(True)
         self.ui.chkmakebeep.setChecked(True)
         self.ui.chkplaysound.setChecked(True)
-        
+
         # with open('licence.txt', 'r') as my_license:
         #     text = my_license.read()
         #     self.ui.textBrowser.setPlainText(text)
 
-    #===================================================================================================================
+    # ===================================================================================================================
     def connectActions(self):
 
         self.ui.btnchecknowmails.clicked.connect(self.checkNowMails)
@@ -101,7 +100,7 @@ class Mx5000(QDialog):
         # self.ui.btnapply.clicked.connect(self.applySettings)
         self.ui.chkmakebeep.toggled.connect(self.updatecheckboxes)
 
-    #===================================================================================================================
+    # ===================================================================================================================
 
     def closeEvent(self, event):
 
@@ -111,37 +110,41 @@ class Mx5000(QDialog):
         else:
             event.ignore()
 
-    #===================================================================================================================
+    # ===================================================================================================================
 
     def loadSettings(self):
 
-        settings = QSettings('Exemple app', 'MX5000')
-        pos = settings.value("pos", QPoint(200, 200))
-        size = settings.value("size", QSize(615, 800))
-        self.resize(size)
-        self.move(pos)
+        settings = QSettings("Exemple app", "MX5000")
+        geometry = settings.value("geometry", QRect(200, 200, 615, 800))
+        self.setGeometry(geometry)
 
-    #===================================================================================================================
+    def showEvent(self, event):
+    	self.loadSettings()
+    	super(Mx5000, self).showEvent(event)
+
+    # ===================================================================================================================
 
     def writeSettings(self):
+        settings = QSettings("Exemple app", "MX5000")
+        settings.setValue("geometry", self.geometry())
 
-        settings = QSettings('Exemple app', 'MX5000')
-        settings.setValue("pos", self.pos())
-        settings.setValue("size", self.size())
-
-    #===================================================================================================================
+    # ===================================================================================================================
 
     def okToContinue(self):
 
         if self.dirty:
-            reply = QMessageBox.question(self, self.tr("MX 5000", "Did you want to close the application ?"),
-                                         QMessageBox.Yes | QMessageBox.No | QMessageBox.Cancel,)
+            reply = QMessageBox.question(
+                self,
+                self.tr("MX 5000"),
+                self.tr("Did you want to close the application ?"),
+                QMessageBox.Yes | QMessageBox.No | QMessageBox.Cancel,
+            )
             return reply == QMessageBox.Yes
         return True
 
-    #===================================================================================================================
+    # ===================================================================================================================
 
-    #===================================================================================================================
+    # ===================================================================================================================
 
     # #===================================================================================================================
     def applySettings(self):
@@ -149,7 +152,7 @@ class Mx5000(QDialog):
         # self.writeSettings()
         pass
 
-    #===================================================================================================================
+    # ===================================================================================================================
     def checkNowMails(self):
 
         # pass
@@ -161,32 +164,33 @@ class Mx5000(QDialog):
             # self.Credits.showDocumenters()
             # self.Credits.showTranslators()
 
-    #===================================================================================================================
+    # ===================================================================================================================
     def logMessages(self):
 
         # pass
-        with open('licence.txt', 'r') as my_licence:
+        with open("licence.txt", "r") as my_licence:
             text = my_licence.read()
-            #The Python way
+            # The Python way
             # self.ui.textBrowser.append(text)
-            #The Qt way
+            # The Qt way
             self.ui.textBrowser.setPlainText(text)
 
-    #===================================================================================================================
+    # ===================================================================================================================
     def resetKeyboard(self):
 
         pass
 
-    #===================================================================================================================
+    # ===================================================================================================================
     def updatecheckboxes(self):
 
         pass
 
-    #===================================================================================================================
+    # ===================================================================================================================
 
 
 if __name__ == "__main__":
     application = QApplication(sys.argv)
-    Mx5000 = Mx5000()
-    Mx5000.show()
+    # nor use the name of class as name of variable
+    w = Mx5000()
+    w.show()
     sys.exit(application.exec_())
