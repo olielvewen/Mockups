@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>615</width>
+    <width>621</width>
     <height>800</height>
    </rect>
   </property>
@@ -115,7 +115,7 @@
                       <string>Clear log</string>
                      </property>
                      <property name="icon">
-                      <iconset resource="../images/mx5000ressources.qrc">
+                      <iconset>
                        <normaloff>:/newPrefix/system-reboot.png</normaloff>:/newPrefix/system-reboot.png</iconset>
                      </property>
                      <property name="iconSize">
