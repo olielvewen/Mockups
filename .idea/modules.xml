@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../BliblioApp/.idea/BliblioApp.iml" filepath="$PROJECT_DIR$/../../BliblioApp/.idea/BliblioApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../KvIso/.idea/KvIso.iml" filepath="$PROJECT_DIR$/../KvIso/.idea/KvIso.iml" />
+      <module fileurl="file://$USER_HOME$/Programmation/Apprentissage Programmation/ApprentissagePyQt/Projets ApportantQuelqueChose/LotoEduc/.idea/LotoEduc.iml" filepath="$USER_HOME$/Programmation/Apprentissage Programmation/ApprentissagePyQt/Projets ApportantQuelqueChose/LotoEduc/.idea/LotoEduc.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Mockups.iml" filepath="$PROJECT_DIR$/.idea/Mockups.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../QDvGrab/.idea/QDvgrab.iml" filepath="$PROJECT_DIR$/../QDvGrab/.idea/QDvgrab.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../Qlone/.idea/Qlone.iml" filepath="$PROJECT_DIR$/../../Qlone/.idea/Qlone.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../StreamCap/.idea/StreamCap.iml" filepath="$PROJECT_DIR$/../StreamCap/.idea/StreamCap.iml" />
+      <module fileurl="file://$USER_HOME$/Programmation/Apprentissage Programmation/ApprentissagePyQt/Projets ApportantQuelqueChose/ToutEnClic7.02/.idea/ToutEnClic7.02.iml" filepath="$USER_HOME$/Programmation/Apprentissage Programmation/ApprentissagePyQt/Projets ApportantQuelqueChose/ToutEnClic7.02/.idea/ToutEnClic7.02.iml" />
+      <module fileurl="file://$USER_HOME$/Programmation/Apprentissage Programmation/ApprentissagePyQt/Projets ApportantQuelqueChose/pampi/.idea/pampi.iml" filepath="$USER_HOME$/Programmation/Apprentissage Programmation/ApprentissagePyQt/Projets ApportantQuelqueChose/pampi/.idea/pampi.iml" />
+      <module fileurl="file://$USER_HOME$/Programmation/Apprentissage Programmation/ApprentissagePyQt/Projets ApportantQuelqueChose/pylote/.idea/pylote.iml" filepath="$USER_HOME$/Programmation/Apprentissage Programmation/ApprentissagePyQt/Projets ApportantQuelqueChose/pylote/.idea/pylote.iml" />
     </modules>
   </component>
 </project>

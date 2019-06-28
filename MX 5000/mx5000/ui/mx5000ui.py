@@ -2,11 +2,12 @@
 
 # Form implementation generated from reading ui file 'mx5000.ui'
 #
-# Created by: PyQt5 UI code generator 5.6
+# Created by: PyQt5 UI code generator 5.12.2
 #
 # WARNING! All changes made in this file will be lost!
 
 from PyQt5 import QtCore, QtGui, QtWidgets
+
 
 class Ui_MX5000(object):
     def setupUi(self, MX5000):
@@ -23,7 +24,6 @@ class Ui_MX5000(object):
         self.tabmain = QtWidgets.QWidget()
         self.tabmain.setObjectName("tabmain")
         self.verticalLayout_11 = QtWidgets.QVBoxLayout(self.tabmain)
-        self.verticalLayout_11.setContentsMargins(0, 0, 0, 0)
         self.verticalLayout_11.setObjectName("verticalLayout_11")
         self.frame = QtWidgets.QFrame(self.tabmain)
         self.frame.setFrameShape(QtWidgets.QFrame.StyledPanel)
@@ -106,7 +106,6 @@ class Ui_MX5000(object):
         self.tabsettings = QtWidgets.QWidget()
         self.tabsettings.setObjectName("tabsettings")
         self.verticalLayout_10 = QtWidgets.QVBoxLayout(self.tabsettings)
-        self.verticalLayout_10.setContentsMargins(0, 0, 0, 0)
         self.verticalLayout_10.setObjectName("verticalLayout_10")
         self.frame_2 = QtWidgets.QFrame(self.tabsettings)
         self.frame_2.setFrameShape(QtWidgets.QFrame.StyledPanel)
@@ -269,7 +268,9 @@ class Ui_MX5000(object):
         self.btnquit.setText(_translate("MX5000", "Quit"))
         self.btnapply.setText(_translate("MX5000", "Apply"))
 
-from images import mx5000ressources_rc
+
+import mx5000ressources_rc
+
 
 if __name__ == "__main__":
     import sys
@@ -279,4 +280,3 @@ if __name__ == "__main__":
     ui.setupUi(MX5000)
     MX5000.show()
     sys.exit(app.exec_())
-

@@ -4,5 +4,14 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="jdk" jdkName="Python 3.7 (MX 5000)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="StreamCap" />
+    <orderEntry type="module" module-name="KvIso" />
+    <orderEntry type="module" module-name="QDvgrab" />
+    <orderEntry type="module" module-name="Qlone" />
+    <orderEntry type="module" module-name="BliblioApp" />
+    <orderEntry type="module" module-name="pampi" />
+    <orderEntry type="module" module-name="ToutEnClic7.02" />
+    <orderEntry type="module" module-name="LotoEduc" />
+    <orderEntry type="module" module-name="pylote" />
   </component>
 </module>
