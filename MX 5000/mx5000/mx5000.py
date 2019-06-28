@@ -28,7 +28,7 @@ from PyQt5.QtWidgets import QDialog, QApplication, QMessageBox
 from PyQt5.QtGui import *
 
 from ui.mx5000ui import Ui_MX5000
-from images import mx5000ressources_rc
+from images.mx5000ressources_rc import *
 from credits import Credits
 
 
