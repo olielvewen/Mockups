@@ -137,7 +137,7 @@ class Mx5000(QDialog):
                 self,
                 self.tr("MX 5000"),
                 self.tr("Did you want to close the application ?"),
-                QMessageBox.Yes | QMessageBox.No | QMessageBox.Cancel,
+                QMessageBox.Yes | QMessageBox.No,
             )
             return reply == QMessageBox.Yes
         return True

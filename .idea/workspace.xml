@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f19c35fe-0943-471e-9408-5ca0c143ee38" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/MX 5000/mx5000/mx5000.py" beforeDir="false" afterPath="$PROJECT_DIR$/MX 5000/mx5000/mx5000.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../QDvGrab/..." beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../StreamCap/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../StreamCap/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../StreamCap/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../StreamCap/.idea/vcs.xml" afterDir="false" />
@@ -33,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MX 5000/mx5000/mx5000.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="209">
-              <caret line="35" column="20" lean-forward="true" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+              <caret line="11" column="60" lean-forward="true" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
               <folding>
                 <element signature="e#794#803#0" expanded="true" />
               </folding>
@@ -45,10 +46,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MX 5000/mx5000/ui/mx5000ui.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4787" />
+            <state relative-caret-position="1881">
+              <caret line="228" column="36" lean-forward="true" selection-start-line="228" selection-start-column="36" selection-end-line="228" selection-end-column="36" />
+            </state>
           </provider>
         </entry>
       </file>
@@ -123,13 +126,6 @@
               <item name="Mockups" type="462c0819:PsiDirectoryNode" />
               <item name="MX 5000" type="462c0819:PsiDirectoryNode" />
               <item name="mx5000" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Mockups" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mockups" type="462c0819:PsiDirectoryNode" />
-              <item name="MX 5000" type="462c0819:PsiDirectoryNode" />
-              <item name="mx5000" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Mockups" type="b2602c69:ProjectViewProjectNode" />
@@ -288,7 +284,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="50" width="1920" height="1150" extended-state="1" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4985507" visible="true" weight="0.24986821" />
       <window_info id="Structure" order="1" sideWeight="0.5014493" side_tool="true" visible="true" weight="0.24986821" />
@@ -341,23 +336,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/estabilize/estabilize.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="95" column="44" lean-forward="true" selection-start-line="95" selection-start-column="44" selection-end-line="95" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MX 5000/mx5000/mx5000.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="35" column="20" lean-forward="true" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
-          <folding>
-            <element signature="e#794#803#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MX 5000/mx5000/images/mx5000ressources.qrc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -368,9 +346,28 @@
     <entry file="file://$PROJECT_DIR$/MX 5000/mx5000/images/mx5000ressources_rc.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/estabilize/estabilize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="95" column="44" lean-forward="true" selection-start-line="95" selection-start-column="44" selection-end-line="95" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MX 5000/mx5000/ui/mx5000ui.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4787" />
+        <state relative-caret-position="1881">
+          <caret line="228" column="36" lean-forward="true" selection-start-line="228" selection-start-column="36" selection-end-line="228" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MX 5000/mx5000/mx5000.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="60" lean-forward="true" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
+          <folding>
+            <element signature="e#794#803#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>
