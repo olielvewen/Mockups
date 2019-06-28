@@ -12,7 +12,7 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_MX5000(object):
     def setupUi(self, MX5000):
         MX5000.setObjectName("MX5000")
-        MX5000.resize(615, 800)
+        MX5000.resize(621, 800)
         MX5000.setLocale(QtCore.QLocale(QtCore.QLocale.English, QtCore.QLocale.UnitedKingdom))
         self.verticalLayout_6 = QtWidgets.QVBoxLayout(MX5000)
         self.verticalLayout_6.setObjectName("verticalLayout_6")
