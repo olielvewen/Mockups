@@ -102,7 +102,7 @@ class MonAppli(QDialog):
 
         if self.dirty:
             reply = QMessageBox.question(self, self.tr("MX 5000", "Did you want to close the application ?"),
-                                         QMessageBox.Yes | QMessageBox.No | QMessageBox.Cancel,)
+                                         QMessageBox.Yes | QMessageBox.No)
             return reply == QMessageBox.Yes
         return True
 
