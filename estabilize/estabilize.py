@@ -112,8 +112,8 @@ class MonAppli(QDialog):
 if __name__ == "__main__":
 
     application = QApplication(sys.argv)
-    MonAppli = MonAppli()
-    MonAppli.show()
+    window = MonAppli()
+    window.show()
     print("Welcome to eStabilize {}. \nHope you'll enjoy it. \nPlease report all bugs,"
           "features request and comments at {}\n".format(app_version, author_mail))
     sys.exit(application.exec_())
