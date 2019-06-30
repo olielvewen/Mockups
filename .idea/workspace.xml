@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f19c35fe-0943-471e-9408-5ca0c143ee38" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Learning/application-exit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learning/desktop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learning/mascot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learning/mouse.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learning/reboot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MX 5000/mx5000/credits.py" beforeDir="false" afterPath="$PROJECT_DIR$/MX 5000/mx5000/credits.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../QDvGrab/..." beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../StreamCap/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../StreamCap/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../StreamCap/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../StreamCap/.idea/vcs.xml" afterDir="false" />
@@ -24,7 +20,7 @@
         <entry file="file://$PROJECT_DIR$/MX 5000/mx5000/mx5000.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="205">
-              <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+              <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
               <folding>
                 <element signature="e#794#803#0" expanded="true" />
               </folding>
@@ -35,8 +31,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MX 5000/mx5000/credits.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="56" selection-start-line="56" selection-end-line="56" />
+            <state relative-caret-position="817">
+              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
               <folding>
                 <element signature="e#801#810#0" expanded="true" />
               </folding>
@@ -125,7 +121,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.basic_tray_menu (1)">
+  <component name="RunManager" selected="Python.mx5000">
     <configuration name="basic_splashscreen_file" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Mockups" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -233,8 +229,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.basic_tray_menu (1)" />
         <item itemvalue="Python.mx5000" />
+        <item itemvalue="Python.basic_tray_menu (1)" />
         <item itemvalue="Python.estabilize" />
         <item itemvalue="Python.basic_splashscreen_file" />
         <item itemvalue="Python.basic_tray_menu" />
@@ -255,7 +251,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="50" width="1920" height="1150" extended-state="1" />
+    <frame x="0" y="50" width="1920" height="1150" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49565217" visible="true" weight="0.24986821" />
@@ -328,16 +324,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MX 5000/mx5000/mx5000.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
-          <folding>
-            <element signature="e#794#803#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MX 5000/mx5000/basic_tray_menu.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
@@ -355,10 +341,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/MX 5000/mx5000/mx5000.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
+          <folding>
+            <element signature="e#794#803#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MX 5000/mx5000/credits.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        <state relative-caret-position="817">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
           <folding>
             <element signature="e#801#810#0" expanded="true" />
           </folding>

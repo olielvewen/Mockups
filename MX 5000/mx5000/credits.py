@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 #
-# tray_menu - A tray menu for MX 5000 Keyboard using MX5000tools
+# Credit - a file for displaying credits -Authors -Translator-Documenter-Licence
 # Copyright (c) 2019 Olivier Girard <olivier@openshot.org>
 #
 # MX 5000 is free software; you can redistribute it and/or modify
@@ -21,7 +21,6 @@
 import os
 
 from PyQt5.QtWidgets import QDialog
-# from PyQt5.QtCore import
 
 from ui.creditsui import Ui_creditscreen
 
@@ -40,6 +39,7 @@ class Credits(QDialog):
         super(Credits, self).__init__(parent)
         self.setupUi()
         self.showLicense()
+        # self.showAuthors()
 
     def setupUi(self):
 
