@@ -39,23 +39,21 @@ class Credits(QDialog):
 
         super(Credits, self).__init__(parent)
         self.setupUi()
+        self.showLicense()
 
     def setupUi(self):
 
         self.ui = Ui_creditscreen()
         self.ui.setupUi(self)
+
+    def showLicense(self):
+
         # path_li = os.path.join(path_licence, "licence.txt")
+
         with open('licence.txt', 'r') as my_licence:
             text = my_licence.read()
-            self.ui.textBrowserlicense.setText(text)
-
-    # def showLicense(self):
-
-        # path_li = os.path.join(path_licence, "licence.txt")
-
-        # with open('path_li', 'r') as my_licence:
-        #     text = my_licence.read()
-        #     self.ui.textBrowserlicense.setPlainText(text)
+            self.ui.textBrowserlicense.setPlainText(text)
+            # self.ui.textBrowserlicense.setText(text)
 
     def showAuthors(self):
 
