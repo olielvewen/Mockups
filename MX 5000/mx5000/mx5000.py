@@ -114,9 +114,9 @@ class Mx5000(QDialog):
         geometry = settings.value("geometry", QRect(200, 200, 615, 800))
         self.setGeometry(geometry)
 
-    # def showEvent(self, event):
-    # 	self.loadSettings()
-    # 	super(Mx5000, self).showEvent(event)
+    def showEvent(self, event):
+        self.loadSettings()
+        super(Mx5000, self).showEvent(event)
 
     # ===================================================================================================================
 
