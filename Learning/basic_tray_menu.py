@@ -65,5 +65,6 @@ menulist_tray.addSeparator()
 
 #Ajout du menu au tray
 tray_menu.setContextMenu(menulist_tray)
+tray_menu.showMessage("Basic Tray", "Application is running in the systray", QSystemTrayIcon.Information, 2000)
 
 app.exec_()

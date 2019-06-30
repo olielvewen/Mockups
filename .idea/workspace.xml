@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f19c35fe-0943-471e-9408-5ca0c143ee38" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/MX 5000/mx5000/mx5000.py" beforeDir="false" afterPath="$PROJECT_DIR$/MX 5000/mx5000/mx5000.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Learning/basic_tray_menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/Learning/basic_tray_menu.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../QDvGrab/..." beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../StreamCap/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../StreamCap/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../StreamCap/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../StreamCap/.idea/vcs.xml" afterDir="false" />
@@ -16,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MX 5000/mx5000/mx5000.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="79" column="73" lean-forward="true" selection-start-line="79" selection-start-column="73" selection-end-line="79" selection-end-column="73" />
+            <state relative-caret-position="57">
+              <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
               <folding>
                 <element signature="e#794#803#0" expanded="true" />
               </folding>
@@ -51,6 +52,27 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/estabilize/estabilize.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="604">
+              <caret line="99" lean-forward="true" selection-start-line="99" selection-end-line="99" />
+              <folding>
+                <element signature="e#817#827#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Learning/basic_tray_menu.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="47" column="21" lean-forward="true" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -62,6 +84,8 @@
         <option value="$PROJECT_DIR$/MX 5000/mx5000/basic_splashscreen_file.py" />
         <option value="$PROJECT_DIR$/MX 5000/mx5000/credits.py" />
         <option value="$PROJECT_DIR$/MX 5000/mx5000/mx5000.py" />
+        <option value="$PROJECT_DIR$/estabilize/estabilize.py" />
+        <option value="$PROJECT_DIR$/Learning/basic_tray_menu.py" />
       </list>
     </option>
   </component>
@@ -121,7 +145,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.estabilize">
+  <component name="RunManager" selected="Python.basic_tray_menu (1)">
     <configuration name="basic_splashscreen_file" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Mockups" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -229,10 +253,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.basic_tray_menu (1)" />
         <item itemvalue="Python.estabilize" />
         <item itemvalue="Python.estabilize (1)" />
         <item itemvalue="Python.mx5000" />
-        <item itemvalue="Python.basic_tray_menu (1)" />
         <item itemvalue="Python.basic_splashscreen_file" />
       </list>
     </recent_temporary>
@@ -298,28 +322,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/estabilize/estabilize.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="98" column="77" selection-start-line="98" selection-start-column="77" selection-end-line="98" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MX 5000/mx5000/basic_splashscreen_file.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="80" selection-start-line="80" selection-end-line="80" />
           <folding>
             <element signature="e#812#821#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../StreamCap/streamcap/windows/streamcap.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#48#58#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -334,10 +342,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Learning/basic_tray_menu.py">
+    <entry file="file://$PROJECT_DIR$/MX 5000/mx5000/mx5000.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="40" column="21" lean-forward="true" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
+        <state relative-caret-position="57">
+          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
+          <folding>
+            <element signature="e#794#803#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -351,13 +362,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MX 5000/mx5000/mx5000.py">
+    <entry file="file://$PROJECT_DIR$/../../eStabilise/estabilize.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="79" column="73" lean-forward="true" selection-start-line="79" selection-start-column="73" selection-end-line="79" selection-end-column="73" />
+        <state relative-caret-position="247">
+          <caret line="13" column="63" lean-forward="true" selection-start-line="13" selection-start-column="63" selection-end-line="13" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../StreamCap/streamcap/windows/streamcap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <folding>
-            <element signature="e#794#803#0" expanded="true" />
+            <element signature="e#48#58#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/estabilize/estabilize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="604">
+          <caret line="99" lean-forward="true" selection-start-line="99" selection-end-line="99" />
+          <folding>
+            <element signature="e#817#827#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Learning/basic_tray_menu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="47" column="21" lean-forward="true" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
         </state>
       </provider>
     </entry>
