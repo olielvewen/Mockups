@@ -151,15 +151,13 @@ class Mx5000(QDialog):
     # ===================================================================================================================
     def checkNowMails(self):
 
-        # pass
         dialog = Credits(self)
         if dialog.exec_():
             self.show()
-   
+
     # ===================================================================================================================
     def logMessages(self):
 
-        # pass
         with open("licence.txt", "r") as my_licence:
             text = my_licence.read()
             # The Python way
