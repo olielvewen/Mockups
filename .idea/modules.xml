@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../../BliblioApp/.idea/BliblioApp.iml" filepath="$PROJECT_DIR$/../../BliblioApp/.idea/BliblioApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/../KvIso/.idea/KvIso.iml" filepath="$PROJECT_DIR$/../KvIso/.idea/KvIso.iml" />
-      <module fileurl="file://$USER_HOME$/Programmation/Apprentissage Programmation/ApprentissagePyQt/Projets ApportantQuelqueChose/LotoEduc/.idea/LotoEduc.iml" filepath="$USER_HOME$/Programmation/Apprentissage Programmation/ApprentissagePyQt/Projets ApportantQuelqueChose/LotoEduc/.idea/LotoEduc.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Mockups.iml" filepath="$PROJECT_DIR$/.idea/Mockups.iml" />
       <module fileurl="file://$PROJECT_DIR$/../QDvGrab/.idea/QDvgrab.iml" filepath="$PROJECT_DIR$/../QDvGrab/.idea/QDvgrab.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../Qlone/.idea/Qlone.iml" filepath="$PROJECT_DIR$/../../Qlone/.idea/Qlone.iml" />
