@@ -269,7 +269,7 @@ class Ui_MX5000(object):
         self.btnapply.setText(_translate("MX5000", "Apply"))
 
 
-import mx5000ressources_rc
+from images import mx5000ressources_rc
 
 
 if __name__ == "__main__":
