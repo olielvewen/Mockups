@@ -87,10 +87,6 @@ class Mx5000(QDialog):
         self.ui.chkmakebeep.setChecked(True)
         self.ui.chkplaysound.setChecked(True)
 
-        # with open('licence.txt', 'r') as my_license:
-        #     text = my_license.read()
-        #     self.ui.textBrowser.setPlainText(text)
-
     # ===================================================================================================================
     def connectActions(self):
 
@@ -159,11 +155,7 @@ class Mx5000(QDialog):
         dialog = Credits(self)
         if dialog.exec_():
             self.show()
-            # self.Credits.showAuthors()
-            # self.Credits.showLicense()
-            # self.Credits.showDocumenters()
-            # self.Credits.showTranslators()
-
+   
     # ===================================================================================================================
     def logMessages(self):
 
