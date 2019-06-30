@@ -82,6 +82,7 @@ class Mx5000(QDialog):
 
         self.ui = Ui_MX5000()
         self.ui.setupUi(self)
+
         self.ui.rdbimap.setChecked(True)
         self.ui.chkmakebeep.setChecked(True)
         self.ui.chkplaysound.setChecked(True)
@@ -108,6 +109,7 @@ class Mx5000(QDialog):
         self.loadSettings()
         super(Mx5000, self).showEvent(event)
 
+    # ===================================================================================================================
     def writeSettings(self):
         settings = QSettings("Exemple app", "MX5000")
         settings.setValue("geometry", self.geometry())
@@ -138,7 +140,6 @@ class Mx5000(QDialog):
 
     # ===================================================================================================================
 
-    # ===================================================================================================================
 
     # #===================================================================================================================
     def applySettings(self):
