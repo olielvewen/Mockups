@@ -23,9 +23,8 @@ import sys
 import configparser
 from functools import partial
 
-from PyQt5.QtCore import QSettings, QRect, QTimer
+from PyQt5.QtCore import QSettings, QRect
 from PyQt5.QtWidgets import QDialog, QApplication, QMessageBox
-from PyQt5.QtGui import *
 
 from ui.mx5000ui import Ui_MX5000
 from images.mx5000ressources_rc import *
@@ -93,7 +92,7 @@ class Mx5000(QDialog):
         self.ui.btnchecknowmails.clicked.connect(self.checkNowMails)
         self.ui.btnclearlog.clicked.connect(self.logMessages)
         self.ui.btnresetkeyboard.clicked.connect(self.resetKeyboard)
-        # self.ui.btnapply.clicked.connect(self.applySettings)
+        self.ui.btnapply.clicked.connect(self.applySettings)
         self.ui.chkmakebeep.toggled.connect(self.updatecheckboxes)
 
     # ===================================================================================================================
