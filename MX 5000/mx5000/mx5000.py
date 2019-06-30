@@ -97,27 +97,16 @@ class Mx5000(QDialog):
 
     # ===================================================================================================================
 
-    def closeEvent(self, event):
-
-        if self.okToContinue():
-            self.writeSettings()
-            event.accept()
-        else:
-            event.ignore()
-
-    # ===================================================================================================================
-
     def loadSettings(self):
 
         settings = QSettings("Exemple app", "MX5000")
         geometry = settings.value("geometry", QRect(200, 200, 615, 800))
         self.setGeometry(geometry)
 
+    # ===================================================================================================================
     def showEvent(self, event):
         self.loadSettings()
         super(Mx5000, self).showEvent(event)
-
-    # ===================================================================================================================
 
     def writeSettings(self):
         settings = QSettings("Exemple app", "MX5000")
@@ -133,9 +122,19 @@ class Mx5000(QDialog):
                 self.tr("MX 5000"),
                 self.tr("Did you want to close the application ?"),
                 QMessageBox.Yes | QMessageBox.No,
-            )
+                )
             return reply == QMessageBox.Yes
         return True
+
+    # ===================================================================================================================
+
+    def closeEvent(self, event):
+
+        if self.okToContinue():
+            self.writeSettings()
+            event.accept()
+        else:
+            event.ignore()
 
     # ===================================================================================================================
 
