@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f19c35fe-0943-471e-9408-5ca0c143ee38" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Learning/application-exit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Learning/desktop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Learning/mascot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Learning/mouse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Learning/reboot.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../QDvGrab/..." beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../StreamCap/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../StreamCap/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../StreamCap/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../StreamCap/.idea/vcs.xml" afterDir="false" />
@@ -81,6 +86,11 @@
             <path>
               <item name="Mockups" type="b2602c69:ProjectViewProjectNode" />
               <item name="Mockups" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Mockups" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mockups" type="462c0819:PsiDirectoryNode" />
+              <item name="Learning" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Mockups" type="b2602c69:ProjectViewProjectNode" />
@@ -335,6 +345,13 @@
           <folding>
             <element signature="e#801#810#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Learning/basic_tray_menu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="40" column="21" lean-forward="true" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
         </state>
       </provider>
     </entry>
