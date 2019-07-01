@@ -143,7 +143,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.etranscode">
+  <component name="RunManager" selected="Python.devidify">
     <configuration name="basic_tray_menu (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Mockups" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -186,7 +186,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="estabilize" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="devidify" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Mockups" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -194,11 +194,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/estabilize" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/devidify" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/estabilize/estabilize.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/devidify/devidify.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -251,11 +251,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.devidify" />
         <item itemvalue="Python.etranscode" />
         <item itemvalue="Python.mx5000" />
         <item itemvalue="Python.credits" />
         <item itemvalue="Python.basic_tray_menu (1)" />
-        <item itemvalue="Python.estabilize" />
       </list>
     </recent_temporary>
   </component>

@@ -73,7 +73,7 @@ class deViDify(QDialog):
         pass
 
     # ==================================================================================================================
-        def doRip(self):
+    def doRip(self):
         "prepare le travail de rippage"
         pass
 
@@ -187,6 +187,6 @@ class PrefsDialog(object):
 if __name__ == "__main__":
 
     application = QApplication(sys.argv)
-    deViDify = deViDify()
-    deViDify.show()
+    window = deViDify()
+    window.show()
     sys.exit(application.exec_())
