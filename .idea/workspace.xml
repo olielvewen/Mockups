@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f19c35fe-0943-471e-9408-5ca0c143ee38" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/devidify/devidify.py" beforeDir="false" afterPath="$PROJECT_DIR$/devidify/devidify.py" afterDir="false" />
-    </list>
+    <list default="true" id="f19c35fe-0943-471e-9408-5ca0c143ee38" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,23 +45,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/estabilize/estabilize.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1212">
-              <caret line="71" column="89" selection-start-line="71" selection-start-column="89" selection-end-line="71" selection-end-column="89" />
+            <state relative-caret-position="205">
+              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
               <folding>
                 <element signature="e#817#827#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/devidify/devidify.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="183" column="120" selection-start-line="183" selection-start-column="120" selection-end-line="183" selection-end-column="120" />
             </state>
           </provider>
         </entry>
@@ -115,11 +104,6 @@
             <path>
               <item name="Mockups" type="b2602c69:ProjectViewProjectNode" />
               <item name="Mockups" type="462c0819:PsiDirectoryNode" />
-              <item name="devidify" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Mockups" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mockups" type="462c0819:PsiDirectoryNode" />
               <item name="MX 5000" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -143,28 +127,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.devidify">
-    <configuration name="basic_tray_menu (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Mockups" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Learning" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Learning/basic_tray_menu.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.mx5000">
     <configuration name="credits" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Mockups" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -199,6 +162,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/devidify/devidify.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="estabilize" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Mockups" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/estabilize" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/estabilize/estabilize.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -251,11 +235,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.mx5000" />
+        <item itemvalue="Python.estabilize" />
         <item itemvalue="Python.devidify" />
         <item itemvalue="Python.etranscode" />
-        <item itemvalue="Python.mx5000" />
         <item itemvalue="Python.credits" />
-        <item itemvalue="Python.basic_tray_menu (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -281,22 +265,22 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="50" width="1920" height="1150" extended-state="1" />
+    <frame x="0" y="50" width="1920" height="1150" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4942029" visible="true" weight="0.24986821" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4942029" visible="true" weight="0.24986821" />
       <window_info id="Structure" order="1" sideWeight="0.5057971" side_tool="true" visible="true" weight="0.24986821" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49973643" visible="true" weight="0.32944608" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.53136533" visible="true" weight="0.32944608" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5002636" side_tool="true" visible="true" weight="0.32944608" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.4686347" side_tool="true" visible="true" weight="0.32944608" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -384,13 +368,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/etranscode/etranscode.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="35" column="17" lean-forward="true" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MX 5000/mx5000/credits.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -401,20 +378,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/estabilize/estabilize.py">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1212">
-          <caret line="71" column="89" selection-start-line="71" selection-start-column="89" selection-end-line="71" selection-end-column="89" />
-          <folding>
-            <element signature="e#817#827#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="38">
+          <caret line="2" column="9" lean-forward="true" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etranscode/etranscode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="35" column="17" lean-forward="true" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/devidify/devidify.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="183" column="120" selection-start-line="183" selection-start-column="120" selection-end-line="183" selection-end-column="120" />
+        <state relative-caret-position="1330">
+          <caret line="77" column="12" lean-forward="true" selection-start-line="77" selection-start-column="12" selection-end-line="77" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/estabilize/estabilize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding>
+            <element signature="e#817#827#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

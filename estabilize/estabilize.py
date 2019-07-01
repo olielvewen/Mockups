@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 #
 # eStabilize - A Tool for Transcode Stabilize plugin done by Georg Martius
-# Copyright (c) 2016 Olivier Girard <olivier@openshot.org>
+# Copyright (c) 2019 Olivier Girard <olivier@openshot.org>
 #
 # eStabilize is free software; you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
