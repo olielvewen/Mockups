@@ -26,7 +26,7 @@
  along with QDVgrab.  If not, see <http://www.gnu.org/licenses/>.
  """
 
-#Used for system
+# Used for system
 import sys
 #Used for functions
 import os
@@ -47,47 +47,47 @@ from PyQt5.QtCore import *
 from kvisoui import Ui_kvisodialog
 # import SplashScreen
 
-#class SplashScreen(QSplashScreen):
+# class SplashScreen(QSplashScreen):
 
-    #def __init__(self, parent=None):
+    # def __init__(self, parent=None):
 
-        #super(SplashScreen, self).__init__(parent)
+        # super(SplashScreen, self).__init__(parent)
 
-    #def showSplash(self):
+    # def showSplash(self):
 
-        #self.timer = QTimer()
-        #self.timer.setInterval(6000)
-        #self.timer.setSingleShot(True)
-        #self.timer.start(KvIso)
+        # self.timer = QTimer()
+        # self.timer.setInterval(6000)
+        # self.timer.setSingleShot(True)
+        # self.timer.start(KvIso)
 
-        #self.splashscreen = QSplashScreen()
-        #self.splashscreen.setPixmap(QPixmap(splash.png))
-        #self.splashscreen.show()
+        # self.splashscreen = QSplashScreen()
+        # self.splashscreen.setPixmap(QPixmap(splash.png))
+        # self.splashscreen.show()
 
-        #self.splashscreen.showMessage(self.tr("Starting + app_name + app_version"), QtCore.Qt.AlignRight | QtCore.Qt.AlignBotton | QtCore.Qt.White)
-        #self.splashscreen.showMessage(self.tr("Loading Libopenshot-audio"), QtCore.Qt.AlignRight | QtCore.Qt.AlignBotton | QtCore.Qt.White)
-        #self.splashscreen.showMessage(self.tr("Loading Libopenshot"), QtCore.Qt.AlignRight | QtCore.Qt.AlignBotton | QtCore.Qt.White)
-        #self.splashscreen.showMessage(self.tr("Loading Kviso"), QtCore.Qt.AlignRight | QtCore.Qt.AlignBotton | QtCore.Qt.White)
+        # self.splashscreen.showMessage(self.tr("Starting + app_name + app_version"), QtCore.Qt.AlignRight | QtCore.Qt.AlignBotton | QtCore.Qt.White)
+        # self.splashscreen.showMessage(self.tr("Loading Libopenshot-audio"), QtCore.Qt.AlignRight | QtCore.Qt.AlignBotton | QtCore.Qt.White)
+        # self.splashscreen.showMessage(self.tr("Loading Libopenshot"), QtCore.Qt.AlignRight | QtCore.Qt.AlignBotton | QtCore.Qt.White)
+        # self.splashscreen.showMessage(self.tr("Loading Kviso"), QtCore.Qt.AlignRight | QtCore.Qt.AlignBotton | QtCore.Qt.White)
 
-        #if self.timer.isActive():
-            #self.timer.timeout.connect(self.loadQuickstart)
-        #else:
-            #self.loadQuickstart()
-            #return
+        # if self.timer.isActive():
+        #     self.timer.timeout.connect(self.loadQuickstart)
+        # else:
+        #     self.loadQuickstart()
+        #     return
 
-    #def loadQuickstart(self):
+    # def loadQuickstart(self):
 
-        #self.splashscreen.finish(KvIso)
-        #KvIso = KvIso()
-        #KvIso.show()
-        #application.exec_()
+        # self.splashscreen.finish(KvIso)
+        # KvIso = KvIso()
+        # KvIso.show()
+        # application.exec_()
 
 
 class KvIso(QDialog):
 
     def __init__(self, parent=None):
         super(KvIso, self).__init__(parent)
-        #self.SplashScreen.loadQuickstart()
+        # self.SplashScreen.loadQuickstart()
         self.createWidgets()
         self.setupUi()
         self.connectActions()
@@ -97,14 +97,14 @@ class KvIso(QDialog):
 
         self.count = 0
 
-    #===================================================================================================================
+    # ===================================================================================================================
     def createWidgets(self):
 
         self.ui = Ui_kvisodialog()
         self.ui.setupUi(self)
-        #self.ui.updateUi()
+        # self.ui.updateUi()
 
-    #===================================================================================================================
+    # ===================================================================================================================
     def setupUi(self):
 
         self.ui.chkvideofile.setEnabled(False)
@@ -112,13 +112,13 @@ class KvIso(QDialog):
         self.ui.lnenamedvd.setEnabled(False)
         self.ui.btncancel.setEnabled(False)
         self.ui.textEdit.setReadOnly(True)
-        #self.ui.textEdit.setLineWrapMode(QTextEdit.NoWrap)
-        #self.ui.textEdit.toPlaintText()
+        # self.ui.textEdit.setLineWrapMode(QTextEdit.NoWrap)
+        # self.ui.textEdit.toPlaintText()
 
-    #def updateUi(self):
-        #pass
+    # def updateUi(self):
+    #     pass
 
-    #===================================================================================================================
+    # ===================================================================================================================
     def connectActions(self):
 
         self.ui.btnquit.clicked.connect(self.close)
@@ -128,9 +128,9 @@ class KvIso(QDialog):
         self.ui.chkimageiso.toggled.connect(self.ui.lnenamedvd.setEnabled)
         self.ui.btnexport.clicked.connect(self.export)
         self.ui.btncancel.clicked.connect(self.cancel)
-        #self.UpdateProgressBar(0)
+        # self.UpdateProgressBar(0)
 
-    #===================================================================================================================
+    # ===================================================================================================================
     def help(self, event):
 
         try:
@@ -140,21 +140,21 @@ class KvIso(QDialog):
             QMessageBox.information(self, "Error!", "Unable to open the website")
             self.ui.textEdit.append("Unable to open the website")
 
-    #===================================================================================================================
+    # ===================================================================================================================
     def choosevideofile(self):
 
         self.filepath = ""
-        #self.file_extension = ("MPEG Files (*.mpeg *.mpg *.vob *.dvd)")
+        # self.file_extension = ("MPEG Files (*.mpeg *.mpg *.vob *.dvd)")
         self.filedialog = QFileDialog()
         self.filepath = self.filedialog.getOpenFileName(self, self.tr('Kviso'), ('Choose a MPEG file'))
         if self.filepath:
-            #self.btnchoosevideofile.setText(str(filepath))
+            # self.btnchoosevideofile.setText(str(filepath))
             self.p1 = str(self.filepath).split('/')
             self.p1.pop()
             self.path = '/'.join(self.p1) + '/'
             self.ui.chkvideofile.setEnabled(True)
 
-    #===================================================================================================================
+    # ===================================================================================================================
     def export(self):
 
         if self.ui.chkvideofile.isChecked():
@@ -162,7 +162,7 @@ class KvIso(QDialog):
             self.ui.textEdit.append("**** dvdauthor : PROCESSUS 1 ****")
 
             self.processus = QProcess()
-            #command = ["-o +(self.path + 'dvd')+ str(self.filepath)"]
+            # command = ["-o +(self.path + 'dvd')+ str(self.filepath)"]
             command = ["-p"]
 
             self.processus.readyReadStandardError.connect(self.readStdErr)
@@ -173,19 +173,19 @@ class KvIso(QDialog):
             self.filelog = open('self.filelogpath', 'w')
 
             self.processus.start("tcmodinfo", command)
-            #self.processus.finished.connect(self.dvdauthor2)
+            # self.processus.finished.connect(self.dvdauthor2)
 
             self.ui.btncancel.setEnabled(True) #activation button cancel
         else:
             self.ui.textEdit.append("Please choose one file and one action...")
 
-    #===================================================================================================================
+    # ===================================================================================================================
     def cancel(self):
 
         self.processus.kill() #kill processus
         self.workfinished() #the work is stopped
 
-    #===================================================================================================================
+    # ===================================================================================================================
     def workfinished(self):
 
         self.ui.textEdit.clear() #remove all text
@@ -195,13 +195,13 @@ class KvIso(QDialog):
         self.ui.chkvideofile.setEnabled(False)
         self.ui.chkimageiso.setEnabled(False)
 
-    #===================================================================================================================
+    # ===================================================================================================================
     def readStdErr(self, linerr=""):
         self.linerr = self.processus.readLineStderr()
         self.ui.textEdit.append(self.linerr)
         self.filelog.write(self.linerr)
 
-    #===================================================================================================================
+    # ===================================================================================================================
     def readStdOut(self, lineout=""):
 
         self.ui.textEdit.setReadOnly(True)
@@ -209,12 +209,12 @@ class KvIso(QDialog):
         self.ui.textEdit.append(self.lineout)
         self.filelog.write(self.lineout)
 
-    #===================================================================================================================
+    # ===================================================================================================================
     def dvdauthor2(self):
 
         self.ui.textEdit.append("**** dvdauthor : PROCESSUS 2 ****")
 
-        #command = ["dvdauthor", "-T", "-o", "(self.path + 'dvd')"]
+        # command = ["dvdauthor", "-T", "-o", "(self.path + 'dvd')"]
         command = ["-i +self.path"]
         self.processus = QProcess()
 
@@ -229,12 +229,12 @@ class KvIso(QDialog):
         else:
             self.processus.finished.connect(self.workfinished)
 
-    #===================================================================================================================
+    # ===================================================================================================================
     def dvdiso(self):
 
         self.ui.textEdit.append("**** mkisofs : PROCESSING ****")
 
-        #command = ["mkisofs", "-o", "(self.path + str(self.ui.lnenamedvd() + '.iso')", "-V", "self.lnenamedvd.text()", "-dvd-video", "(self.path + 'dvd')"]
+        # command = ["mkisofs", "-o", "(self.path + str(self.ui.lnenamedvd() + '.iso')", "-V", "self.lnenamedvd.text()", "-dvd-video", "(self.path + 'dvd')"]
         command = ["-p"]
         self.processus = QProcess()
 
@@ -245,17 +245,17 @@ class KvIso(QDialog):
         self.processus.start("tcmodinfo", command)
         self.processus.finished.connect(self.workfinished)
 
-    #===================================================================================================================
+    # ===================================================================================================================
     def UpdateProgressBar(self):
         while self.processus.Running():
             for i in range(0, 100):
                 self.ui.progressbarexport.setProgress(i)
             self.ui.progressbarexport.reset()
 
-        #if self.count == 100:
-            #self.count = 0
-        #self.count = self.count + 1
-        #self.ui.progressbarexport.setProgress(self.count)
+        # if self.count == 100:
+        #     self.count = 0
+        # self.count = self.count + 1
+        # self.ui.progressbarexport.setProgress(self.count)
 
 
 
@@ -264,7 +264,7 @@ if __name__ == "__main__":
     splashscreen = QSplashScreen()
     splashscreen.setPixmap(QPixmap("splash.png"))
     splashscreen.show()
-    #time.sleep(6)
+    # time.sleep(6)
     application.processEvents()
     KvIso = KvIso()
     KvIso.show()
