@@ -30,17 +30,17 @@ import sys
 import os
 # Need for path
 import os.path
-#Need for find library
+# Need for find library
 import shutil
-#Need for create command line
+# Need for create command line
 import subprocess
 
-#need for display gui
+# need for display gui
 from PyQt5.QtGui import *
 from PyQt5.QtCore import *
 from PyQt5.QtWidgets import *
 
-#Load ui files
+# Load ui files
 from etranscodeui import Ui_MainWindow
 
 app_name = "QDvGrab"

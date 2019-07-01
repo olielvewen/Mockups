@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f19c35fe-0943-471e-9408-5ca0c143ee38" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Kviso/kviso.py" beforeDir="false" afterPath="$PROJECT_DIR$/Kviso/kviso.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/etranscode/etranscode.py" beforeDir="false" afterPath="$PROJECT_DIR$/etranscode/etranscode.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,7 +15,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MX 5000/mx5000/mx5000.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1121">
+            <state>
               <caret line="69" selection-start-line="69" selection-end-line="69" />
               <folding>
                 <element signature="e#794#803#0" expanded="true" />
@@ -37,10 +37,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Kviso/kviso.py">
+        <entry file="file://$PROJECT_DIR$/etranscode/etranscode.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="267" column="4" selection-start-line="267" selection-start-column="4" selection-end-line="267" selection-end-column="4" />
+            <state relative-caret-position="418">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
             </state>
           </provider>
         </entry>
@@ -88,6 +88,7 @@
         <option value="$PROJECT_DIR$/MX 5000/mx5000/credits.py" />
         <option value="$PROJECT_DIR$/qall2mpeg/qall2mpeg.py" />
         <option value="$PROJECT_DIR$/Kviso/kviso.py" />
+        <option value="$PROJECT_DIR$/etranscode/etranscode.py" />
       </list>
     </option>
   </component>
@@ -113,7 +114,7 @@
             <path>
               <item name="Mockups" type="b2602c69:ProjectViewProjectNode" />
               <item name="Mockups" type="462c0819:PsiDirectoryNode" />
-              <item name="Kviso" type="462c0819:PsiDirectoryNode" />
+              <item name="etranscode" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Mockups" type="b2602c69:ProjectViewProjectNode" />
@@ -348,7 +349,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MX 5000/mx5000/mx5000.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1121">
+        <state>
           <caret line="69" selection-start-line="69" selection-end-line="69" />
           <folding>
             <element signature="e#794#803#0" expanded="true" />
@@ -385,6 +386,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Kviso/kviso.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2846">
+          <caret line="270" column="30" selection-start-line="270" selection-start-column="30" selection-end-line="270" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MX 5000/mx5000/credits.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -395,10 +403,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Kviso/kviso.py">
+    <entry file="file://$PROJECT_DIR$/etranscode/etranscode.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="267" column="4" selection-start-line="267" selection-start-column="4" selection-end-line="267" selection-end-column="4" />
+        <state relative-caret-position="418">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
         </state>
       </provider>
     </entry>
