@@ -80,8 +80,8 @@ class MonAppli(QMainWindow):
 
 if __name__ == "__main__":
     application = QApplication(sys.argv)
-    MonAppli = MonAppli()
-    MonAppli.show()
-    print("Welcome to QDvGrab {}. \nHope you'll enjoy it. \nPlease report all bugs,"
+    window = MonAppli()
+    window.show()
+    print("Welcome to eTranscode {}. \nHope you'll enjoy it. \nPlease report all bugs,"
           "features request and comments at {}\n".format(app_version, author_mail))
     sys.exit(application.exec_())
