@@ -115,7 +115,7 @@
                       <string>Clear log</string>
                      </property>
                      <property name="icon">
-                      <iconset>
+                      <iconset resource="../images/mx5000ressources.qrc">
                        <normaloff>:/newPrefix/system-reboot.png</normaloff>:/newPrefix/system-reboot.png</iconset>
                      </property>
                      <property name="iconSize">
@@ -228,7 +228,7 @@
                 </widget>
                </item>
                <item row="0" column="1" colspan="2">
-                <widget class="QLineEdit" name="lineEdit_2"/>
+                <widget class="QLineEdit" name="lnepathkeyboard"/>
                </item>
                <item row="1" column="0" colspan="2">
                 <widget class="QLabel" name="lblnamekeyboard">
@@ -290,7 +290,7 @@
                   </widget>
                  </item>
                  <item row="0" column="1" colspan="2">
-                  <widget class="QLineEdit" name="lineEdit_5"/>
+                  <widget class="QLineEdit" name="lneserveradress"/>
                  </item>
                  <item row="1" column="0">
                   <widget class="QLabel" name="lblusername">
@@ -300,10 +300,10 @@
                   </widget>
                  </item>
                  <item row="1" column="1" colspan="2">
-                  <widget class="QLineEdit" name="lineEdit_4"/>
+                  <widget class="QLineEdit" name="lneusername"/>
                  </item>
                  <item row="2" column="1" colspan="2">
-                  <widget class="QLineEdit" name="lineEdit_3"/>
+                  <widget class="QLineEdit" name="lnepassword"/>
                  </item>
                  <item row="2" column="0">
                   <widget class="QLabel" name="lblpassword">
@@ -320,7 +320,7 @@
                   </widget>
                  </item>
                  <item row="6" column="2">
-                  <widget class="QSpinBox" name="spinBox"/>
+                  <widget class="QSpinBox" name="spncheckfrequency"/>
                  </item>
                 </layout>
                </item>
@@ -394,7 +394,7 @@
                   </spacer>
                  </item>
                  <item>
-                  <widget class="QLineEdit" name="lineEdit">
+                  <widget class="QLineEdit" name="lnenotifyingsound">
                    <property name="minimumSize">
                     <size>
                      <width>340</width>

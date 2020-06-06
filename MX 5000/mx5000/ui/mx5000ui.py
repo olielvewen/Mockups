@@ -2,9 +2,10 @@
 
 # Form implementation generated from reading ui file 'mx5000.ui'
 #
-# Created by: PyQt5 UI code generator 5.12.2
+# Created by: PyQt5 UI code generator 5.14.2
 #
 # WARNING! All changes made in this file will be lost!
+
 
 from PyQt5 import QtCore, QtGui, QtWidgets
 
@@ -123,9 +124,9 @@ class Ui_MX5000(object):
         self.lblpathkeyboard = QtWidgets.QLabel(self.groupBox_4)
         self.lblpathkeyboard.setObjectName("lblpathkeyboard")
         self.gridLayout.addWidget(self.lblpathkeyboard, 0, 0, 1, 1)
-        self.lineEdit_2 = QtWidgets.QLineEdit(self.groupBox_4)
-        self.lineEdit_2.setObjectName("lineEdit_2")
-        self.gridLayout.addWidget(self.lineEdit_2, 0, 1, 1, 2)
+        self.lnepathkeyboard = QtWidgets.QLineEdit(self.groupBox_4)
+        self.lnepathkeyboard.setObjectName("lnepathkeyboard")
+        self.gridLayout.addWidget(self.lnepathkeyboard, 0, 1, 1, 2)
         self.lblnamekeyboard = QtWidgets.QLabel(self.groupBox_4)
         self.lblnamekeyboard.setObjectName("lblnamekeyboard")
         self.gridLayout.addWidget(self.lblnamekeyboard, 1, 0, 1, 2)
@@ -155,27 +156,27 @@ class Ui_MX5000(object):
         self.lblserveradress = QtWidgets.QLabel(self.groupBox_5)
         self.lblserveradress.setObjectName("lblserveradress")
         self.gridLayout_3.addWidget(self.lblserveradress, 0, 0, 1, 1)
-        self.lineEdit_5 = QtWidgets.QLineEdit(self.groupBox_5)
-        self.lineEdit_5.setObjectName("lineEdit_5")
-        self.gridLayout_3.addWidget(self.lineEdit_5, 0, 1, 1, 2)
+        self.lneserveradress = QtWidgets.QLineEdit(self.groupBox_5)
+        self.lneserveradress.setObjectName("lneserveradress")
+        self.gridLayout_3.addWidget(self.lneserveradress, 0, 1, 1, 2)
         self.lblusername = QtWidgets.QLabel(self.groupBox_5)
         self.lblusername.setObjectName("lblusername")
         self.gridLayout_3.addWidget(self.lblusername, 1, 0, 1, 1)
-        self.lineEdit_4 = QtWidgets.QLineEdit(self.groupBox_5)
-        self.lineEdit_4.setObjectName("lineEdit_4")
-        self.gridLayout_3.addWidget(self.lineEdit_4, 1, 1, 1, 2)
-        self.lineEdit_3 = QtWidgets.QLineEdit(self.groupBox_5)
-        self.lineEdit_3.setObjectName("lineEdit_3")
-        self.gridLayout_3.addWidget(self.lineEdit_3, 2, 1, 1, 2)
+        self.lneusername = QtWidgets.QLineEdit(self.groupBox_5)
+        self.lneusername.setObjectName("lneusername")
+        self.gridLayout_3.addWidget(self.lneusername, 1, 1, 1, 2)
+        self.lnepassword = QtWidgets.QLineEdit(self.groupBox_5)
+        self.lnepassword.setObjectName("lnepassword")
+        self.gridLayout_3.addWidget(self.lnepassword, 2, 1, 1, 2)
         self.lblpassword = QtWidgets.QLabel(self.groupBox_5)
         self.lblpassword.setObjectName("lblpassword")
         self.gridLayout_3.addWidget(self.lblpassword, 2, 0, 1, 1)
         self.lblcheckfrequency = QtWidgets.QLabel(self.groupBox_5)
         self.lblcheckfrequency.setObjectName("lblcheckfrequency")
         self.gridLayout_3.addWidget(self.lblcheckfrequency, 6, 0, 1, 2)
-        self.spinBox = QtWidgets.QSpinBox(self.groupBox_5)
-        self.spinBox.setObjectName("spinBox")
-        self.gridLayout_3.addWidget(self.spinBox, 6, 2, 1, 1)
+        self.spncheckfrequency = QtWidgets.QSpinBox(self.groupBox_5)
+        self.spncheckfrequency.setObjectName("spncheckfrequency")
+        self.gridLayout_3.addWidget(self.spncheckfrequency, 6, 2, 1, 1)
         self.verticalLayout_4.addLayout(self.gridLayout_3)
         self.gridLayout_4 = QtWidgets.QGridLayout()
         self.gridLayout_4.setObjectName("gridLayout_4")
@@ -200,10 +201,10 @@ class Ui_MX5000(object):
         self.horizontalLayout_6.setObjectName("horizontalLayout_6")
         spacerItem1 = QtWidgets.QSpacerItem(128, 20, QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Minimum)
         self.horizontalLayout_6.addItem(spacerItem1)
-        self.lineEdit = QtWidgets.QLineEdit(self.groupBox_5)
-        self.lineEdit.setMinimumSize(QtCore.QSize(340, 30))
-        self.lineEdit.setObjectName("lineEdit")
-        self.horizontalLayout_6.addWidget(self.lineEdit)
+        self.lnenotifyingsound = QtWidgets.QLineEdit(self.groupBox_5)
+        self.lnenotifyingsound.setMinimumSize(QtCore.QSize(340, 30))
+        self.lnenotifyingsound.setObjectName("lnenotifyingsound")
+        self.horizontalLayout_6.addWidget(self.lnenotifyingsound)
         self.verticalLayout_4.addLayout(self.horizontalLayout_6)
         self.verticalLayout_5.addWidget(self.groupBox_5)
         self.verticalLayout_9.addLayout(self.verticalLayout_5)
@@ -267,8 +268,6 @@ class Ui_MX5000(object):
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.tabsettings), _translate("MX5000", "Settings"))
         self.btnquit.setText(_translate("MX5000", "Quit"))
         self.btnapply.setText(_translate("MX5000", "Apply"))
-
-
 from images import mx5000ressources_rc
 
 
