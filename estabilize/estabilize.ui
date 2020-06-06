@@ -285,8 +285,8 @@
                 <widget class="QSpinBox" name="spinBox">
                  <property name="minimumSize">
                   <size>
-                   <width>141</width>
-                   <height>33</height>
+                   <width>78</width>
+                   <height>26</height>
                   </size>
                  </property>
                  <property name="value">
@@ -311,8 +311,8 @@
                 <widget class="QSpinBox" name="spinBox_2">
                  <property name="minimumSize">
                   <size>
-                   <width>141</width>
-                   <height>33</height>
+                   <width>78</width>
+                   <height>26</height>
                   </size>
                  </property>
                  <property name="value">

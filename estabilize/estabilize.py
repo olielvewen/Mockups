@@ -29,7 +29,7 @@ import os
 
 # need for display gui
 # from PyQt5.QtGui import *
-from PyQt5.QtCore import QSize, QSettings, QPoint
+from PyQt5.QtCore import QSize, QSettings, QPoint, pyqtSlot
 from PyQt5.QtWidgets import QDialog, QApplication, QMessageBox
 
 # Load ui files
@@ -49,6 +49,11 @@ class MonAppli(QDialog):
         self.setupUi()
         self.connectActions()
         self.loadSettings()
+
+        self.default_size = QSize(650, 750)
+        self.default_position = QPoint(0, 0)
+
+        self.dirty = False
 
     # ==================================================================================================================
     def setupUi(self):
@@ -78,13 +83,17 @@ class MonAppli(QDialog):
         else:
             event.ignore()
 
+    @pyqtSlot()
+    def on_pushButton_4_clicked(self):
+
+        self.close()
     # ==================================================================================================================
 
     def loadSettings(self):
 
-        settings = QSettings('Exemple app', 'MX5000')
-        pos = settings.value("pos", QPoint(200, 200))
-        size = settings.value("size", QSize(615, 800))
+        settings = QSettings('config.ini', 'QSettings.IniFormat')
+        pos = settings.value("pos", QPoint(700, 200))
+        size = settings.value("size", QSize(650, 750))
         self.resize(size)
         self.move(pos)
 
@@ -92,7 +101,7 @@ class MonAppli(QDialog):
 
     def writeSettings(self):
 
-        settings = QSettings('Exemple app', 'MX5000')
+        settings = QSettings('config.ini', 'QSettings.IniFormat')
         settings.setValue("pos", self.pos())
         settings.setValue("size", self.size())
 
@@ -100,9 +109,11 @@ class MonAppli(QDialog):
 
     def okToContinue(self):
 
-        if self.dirty:
-            reply = QMessageBox.question(self, self.tr("MX 5000", "Did you want to close the application ?"),
-                                         QMessageBox.Yes | QMessageBox.No)
+        if self.dirty is True:
+            reply = QMessageBox.question(
+                self,
+                self.tr("MX 5000", "Did you want to close the application ?"),
+                QMessageBox.Yes | QMessageBox.No)
             return reply == QMessageBox.Yes
         return True
 

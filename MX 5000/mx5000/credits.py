@@ -25,21 +25,22 @@ from PyQt5.QtWidgets import QDialog
 from ui.creditsui import Ui_creditscreen
 
 OG = {'name': 'Olivier Girard', 'email': 'olivier@openshot.org'}
-CREDITS = {'code': [OG],
-           'documentation': [OG],
+JT = {'name': 'Jonathan Thomas', 'email': 'jonathan@openshot.org'}
+CREDITS = {'code': [OG, JT],
+           'documentation': [OG, JT],
            'translation': [OG],
            }
 path_licence = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-
+authors = []
 
 class Credits(QDialog):
 
-    def __init__(self, parent=None):
+    def __init__(self, *args, **kwargs):
 
-        super(Credits, self).__init__(parent)
+        super(Credits, self).__init__(*args, *kwargs)
         self.setupUi()
         self.showLicense()
-        # self.showAuthors()
+        self.showAuthors()
 
     def setupUi(self):
 
@@ -62,15 +63,18 @@ class Credits(QDialog):
             name = person['name']
             email = person['email']
             authors.append("{} <{}>".format(name, email))
-        self.ui.textBrowserwritten.setText(authors)
+            authors.append(person)
+        # self.ui.textBrowserwritten.setText(authors)
+        print(str("authors"))
 
     def showDocumenters(self):
 
-        authors = []
+        globals (authors)
+        self.authors = authors or []
         for person in CREDITS['documentation']:
             name = person['name']
             email = person['email']
-            authors.append("{} <{}>".format(name, email))
+            self.authors.append("{} <{}>".format(name, email))
         self.ui.textBrowserdocumented.setText(authors)
 
     def showTranslators(self):
